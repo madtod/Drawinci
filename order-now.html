@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+  <title>Drawinci - draw your life</title>
 
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
@@ -86,93 +86,430 @@
     </div>
   </div>
   <!-- Order Page -->
-  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-1">
+        <form class="form-horizontal well">
+          <fieldset>
+            <legend>Select the number of subjects in your painting</legend>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Picture options</label>
+              <div class="col-lg-10">
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureOption1" value="1Person" checked="">
+                    <br>
+                    <br>1 Person
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureOption2" value="2Person">
+                    <br>
+                    <br>2 Person
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureOption3" value="1Person1Pet">
+                    <br>
+                    <br>1 Person + 1 pet
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureOption4" value="2PersonPet">
+                    <br>
+                    <br>2 Person + pets
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureOption5" value="Landscape">
+                    <br>
+                    <br>Landscape
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureOption6" value="Custom">
+                    <br>
+                    <br>Custom
+                  </label>
+                </div>
+              </div>
+            </div>
 
-  <form class="form-horizontal">
-      <fieldset>
-          <legend>Legend</legend>
-          <div class="form-group">
+            <legend>Select your medium</legend>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Picture style</label>
+              <div class="col-lg-10">
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureStyle" id="pictureStyle1" value="1Person" checked="">
+                    <br>
+                    <br>Oil
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureStyle" id="pictureStyle2" value="2Person">
+                    <br>
+                    <br>Charcoal
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureStyle" id="pictureStyle3" value="1Person1Pet">
+                    <br>
+                    <br>Pencil
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureStyle" id="pictureStyle4" value="2PersonPet">
+                    <br>
+                    <br>Watercolor
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureStyle5" value="Landscape">
+                    <br>
+                    <br>Pastel
+                  </label>
+                </div>
+                <div class="radio radio-primary col-lg-2 text-center">
+                  <label class="inline">
+                    <input type="radio" name="pictureOptions" id="pictureStyle6" value="Custom">
+                    <br>
+                    <br>Acrylic
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <legend>Select quantity</legend>
+            <div class="form-group">
+              <label for="select" class="col-lg-2 control-label">Quantity</label>
+              <div class="col-lg-10">
+                <select class="form-control" id="select">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+
+            <legend>Select size and framing</legend>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Size</th>
+                  <th>Rolled</th>
+                  <th>Wrapped</th>
+                  <th>Framed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>30x40cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>40x50cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>50x60cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>60x90cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>75x100cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>90x120cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>120x180cm</td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio radio-primary col-lg-2 text-center">
+                      <label class="">
+                        <input type="radio" name="Size" id="size1" value="size1">
+                          £XX.XX
+                      </label>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <legend>Upload your image</legend>
+            <div class="form-group">
+              <label for="inputFile" class="col-lg-2 control-label">Upload from your computer</label>
+              <div class="col-lg-10">
+                <input type="text" readonly="" class="form-control floating-label" placeholder="Browse...">
+                <input type="file" id="inputFile" multiple="">
+              </div>
+            </div>
+
+
+
+            <div class="form-group">
               <label for="inputEmail" class="col-lg-2 control-label">Email</label>
               <div class="col-lg-10">
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
               </div>
-          </div>
-          <div class="form-group">
+            </div>
+            <div class="form-group">
               <label for="inputPassword" class="col-lg-2 control-label">Password</label>
               <div class="col-lg-10">
-                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                  <div class="checkbox">
-                      <label>
-                          <input type="checkbox"> Checkbox
-                      </label>
-                  </div>
-                  <br>
-                  <div class="togglebutton">
-                      <label>
-                          <input type="checkbox" checked=""> Toggle button
-                      </label>
-                  </div>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Checkbox
+                  </label>
+                </div>
+                <br>
+                <div class="togglebutton">
+                  <label>
+                    <input type="checkbox" checked=""> Toggle button
+                  </label>
+                </div>
               </div>
-          </div>
-          <div class="form-group">
+            </div>
+            <div class="form-group">
               <label for="inputFile" class="col-lg-2 control-label">File</label>
               <div class="col-lg-10">
-                  <input type="text" readonly="" class="form-control floating-label" placeholder="Browse...">
-                  <input type="file" id="inputFile" multiple="">
+                <input type="text" readonly="" class="form-control floating-label" placeholder="Browse...">
+                <input type="file" id="inputFile" multiple="">
               </div>
-          </div>
-          <div class="form-group">
+            </div>
+            <div class="form-group">
               <label for="textArea" class="col-lg-2 control-label">Textarea</label>
               <div class="col-lg-10">
-                  <textarea class="form-control" rows="3" id="textArea"></textarea>
-                  <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                <textarea class="form-control" rows="3" id="textArea"></textarea>
+                <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
               </div>
-          </div>
-          <div class="form-group">
+            </div>
+            <div class="form-group">
               <label class="col-lg-2 control-label">Radios</label>
               <div class="col-lg-10">
-                  <div class="radio radio-primary">
-                      <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                          Option one is this
-                      </label>
-                  </div>
-                  <div class="radio radio-primary">
-                      <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                          Option two can be something else
-                      </label>
-                  </div>
+                <div class="radio radio-primary">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> Option one is this
+                  </label>
+                </div>
+                <div class="radio radio-primary">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option two can be something else
+                  </label>
+                </div>
               </div>
-          </div>
-          <div class="form-group">
+            </div>
+            <div class="form-group">
               <label for="select" class="col-lg-2 control-label">Selects</label>
               <div class="col-lg-10">
-                  <select class="form-control" id="select">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                  </select>
-                  <br>
-                  <select multiple="" class="form-control">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                  </select>
+                <select class="form-control" id="select">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+                <br>
+                <select multiple="" class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
               </div>
-          </div>
-          <div class="form-group">
+            </div>
+            <div class="form-group">
               <div class="col-lg-10 col-lg-offset-2">
-                  <button class="btn btn-default">Cancel</button>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                <button class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
               </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-lg-2" id="sidebar">
+        <div class="panel panel-default">
+          <div class="panel-heading">Order summary</div>
+          <div class="panel-body">
+
           </div>
-      </fieldset>
-  </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
   <!-- Your site ends -->
 
   <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>

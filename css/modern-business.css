@@ -5,7 +5,17 @@
  */
 
 /* Global Styles */
+/* Fixes  */
 
+label.inline{
+  display: inline;
+}
+#sidebar{
+  position: fixed;
+  /* float: right; */
+  right: 140px;
+  top: 140px;
+}
 html,
 body {
     height: 100%;
