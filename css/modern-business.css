@@ -14,7 +14,7 @@ label.inline{
   position: fixed;
   /* float: right; */
   right: 140px;
-  top: 140px;
+  bottom: 40px;
 }
 html,
 body {

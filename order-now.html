@@ -174,14 +174,14 @@
                 </div>
                 <div class="radio radio-primary col-lg-2 text-center">
                   <label class="inline">
-                    <input type="radio" name="pictureOptions" id="pictureStyle5" value="Landscape">
+                    <input type="radio" name="pictureStyle" id="pictureStyle5" value="Landscape">
                     <br>
                     <br>Pastel
                   </label>
                 </div>
                 <div class="radio radio-primary col-lg-2 text-center">
                   <label class="inline">
-                    <input type="radio" name="pictureOptions" id="pictureStyle6" value="Custom">
+                    <input type="radio" name="pictureStyle" id="pictureStyle6" value="Custom">
                     <br>
                     <br>Acrylic
                   </label>
@@ -414,85 +414,52 @@
                 <input type="file" id="inputFile" multiple="">
               </div>
             </div>
-
-
-
+            <p>or</p>
             <div class="form-group">
-              <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-              <div class="col-lg-10">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              <div class="col-lg-10 col-lg-offset-2">
+                <button class="btn btn-info btn-raised">Facebook</button>
+                <button class="btn btn-info btn-raised">Instragram</button>
+                <button class="btn btn-info btn-raised">Other</button>
               </div>
             </div>
+
+            <legend>Further customization</legend>
             <div class="form-group">
-              <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-              <div class="col-lg-10">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              <div class="col-lg-10 col-lg-offset-2">
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox"> Checkbox
+                    <input type="checkbox">  I would like the Artist's autograph
                   </label>
                 </div>
                 <br>
                 <div class="togglebutton">
                   <label>
-                    <input type="checkbox" checked=""> Toggle button
+                    <input type="checkbox" checked=""> Something else
                   </label>
                 </div>
               </div>
             </div>
-            <div class="form-group">
-              <label for="inputFile" class="col-lg-2 control-label">File</label>
-              <div class="col-lg-10">
-                <input type="text" readonly="" class="form-control floating-label" placeholder="Browse...">
-                <input type="file" id="inputFile" multiple="">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-              <div class="col-lg-10">
-                <textarea class="form-control" rows="3" id="textArea"></textarea>
-                <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-lg-2 control-label">Radios</label>
-              <div class="col-lg-10">
-                <div class="radio radio-primary">
-                  <label>
-                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> Option one is this
+            <legend>Background</legend>
+            <div class="col-lg-10 col-lg-offset-2">
+              <div class="form-group">
+                <div class="radio radio-primary col-lg-4 text-center">
+                  <label class="inline">
+                    <input type="radio" name="Backgroud" id="background1" value="backgrou1">
+                      Let the artist choose
                   </label>
                 </div>
-                <div class="radio radio-primary">
-                  <label>
-                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option two can be something else
+                <div class="radio radio-primary col-lg-4 text-center">
+                  <label class="inline">
+                    <input type="radio" name="Backgroud" id="background1" value="backgrou1">
+                      Solid colour
                   </label>
                 </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="select" class="col-lg-2 control-label">Selects</label>
-              <div class="col-lg-10">
-                <select class="form-control" id="select">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-                <br>
-                <select multiple="" class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-10 col-lg-offset-2">
-                <button class="btn btn-default">Cancel</button>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="radio radio-primary col-lg-4 text-center">
+                  <label class="inline">
+                    <input type="radio" name="Backgroud" id="background1" value="backgrou1">
+                      Our library
+                  </label>
+                </div>
               </div>
             </div>
           </fieldset>
@@ -502,6 +469,14 @@
         <div class="panel panel-default">
           <div class="panel-heading">Order summary</div>
           <div class="panel-body">
+            <ul>
+              <li>Option1</li>
+              <li>Option2</li>
+              <li>Option3</li>
+              <li>Option4</li>
+              <li>Option5</li>
+            </ul>
+            <a href="javascript:void(0)" class="btn btn-primary btn-fab btn-raised mdi-action-shopping-cart"></a> Total: £XX.XX
 
           </div>
         </div>
